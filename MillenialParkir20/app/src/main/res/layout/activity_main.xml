@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="360dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/daftar"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+            <EditText
+                android:id="@+id/edt_usernameRegister"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:hint="username"/>
+
+            <EditText
+                android:id="@+id/edt_emailRegister"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:hint="email"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_passwordRegister"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:password="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_confPasswordRegister"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:password="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_loginRegister"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3A88EC"
+                    android:layout_marginLeft="0dp"
+                    android:text="LOGIN"/>
+
+                <Button
+                    android:id="@+id/btn_registerRegister"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3A88EC"
+                    android:layout_marginLeft="10dp"
+                    android:text="REGISTER"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

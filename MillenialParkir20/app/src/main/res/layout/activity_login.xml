@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".Login">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Halaman Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="315dp"
+            android:layout_height="310dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/bg"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="146dp" />
+        <EditText
+            android:id="@+id/edt_usernameLogin"
+            android:layout_width="300dp"
+            android:layout_height="52dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="0dp"
+            android:hint="username" />
+
+        <EditText
+            android:id="@+id/edt_passwordLogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:hint="password"
+            android:password="true" />
+
+        <Button
+            android:id="@+id/btn_loginLogin"
+            android:layout_width="332dp"
+            android:layout_height="52dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#3A88EC"
+            android:text="LOGIN" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Belum Punya Akun? Daftar Sekarang"/>
+
+        <Button
+            android:id="@+id/btn_registerLogin"
+            android:layout_width="332dp"
+            android:layout_height="52dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#3A88EC"
+            android:text="REGISTER" />
+        <Button
+            android:id="@+id/btn_scanBarcode"
+            android:layout_width="332dp"
+            android:layout_height="52dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#3A88EC"
+            android:text="Scan Barcode" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
